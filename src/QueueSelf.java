@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 
 public class QueueSelf {
-    public static LinkedList<String> Testing(int n) throws Exception {
+    public static LinkedList<String> GetAnswer(int n) throws Exception {
         LinkedList<String> list = new LinkedList<>();
 
         int col = 1;

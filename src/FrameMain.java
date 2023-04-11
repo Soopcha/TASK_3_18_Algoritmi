@@ -27,7 +27,7 @@ public class FrameMain extends JFrame {
     private JFileChooser fileChooserSave;
 
     public FrameMain() {
-        this.setTitle("Queue");
+        this.setTitle("Пьяница");
         this.setContentPane(panelMain);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
@@ -93,7 +93,7 @@ public class FrameMain extends JFrame {
                 int n = Integer.parseInt(textFieldN.getText());
                 LinkedList<String> list = new LinkedList<>();
                 try {
-                    list = QueueSelf.Testing(n);
+                    list = QueueSelf.GetAnswer(n);
                 } catch (Exception e) {
                     throw new RuntimeException(e);
                 }
